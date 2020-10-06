@@ -1,0 +1,7 @@
+.page {
+  font-family: "Museo Sans Cyrl", "Inter", "Arial", sans-serif;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

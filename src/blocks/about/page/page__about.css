@@ -1,0 +1,24 @@
+.page__about {
+  box-sizing: border-box;
+  padding: 60px 21px 47px;
+  max-width: 320px;
+}
+
+@media all and (min-width: 480px) {
+  .page__about {
+    max-width: 480px;
+  }
+}
+@media all and (min-width: 768px) {
+  .page__about {
+    max-width: 768px;
+    padding: 100px 24px 73px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .page__about {
+    min-width: 1024px;
+    padding: 100px 54px 59px;
+  }
+}

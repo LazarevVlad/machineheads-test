@@ -1,0 +1,15 @@
+.main__questions {
+  color: #0553f1;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  cursor: pointer;
+  margin: 0;
+  margin-left: 5px;
+}
+
+@media all and (min-width: 480px) {
+  .main__questions {
+    margin: 0;
+  }
+}

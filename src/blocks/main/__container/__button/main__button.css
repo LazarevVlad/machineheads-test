@@ -1,0 +1,17 @@
+.main__button {
+  width: 188px;
+  height: 58px;
+  margin: 0 0 25px;
+  box-sizing: border-box;
+  padding: 16px 25px;
+  background-color: #0553f1;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+@media all and (min-width: 480px) {
+  .main__button {
+    margin: 0;
+  }
+}

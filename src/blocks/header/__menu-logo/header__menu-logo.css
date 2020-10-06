@@ -1,0 +1,7 @@
+.header__menu-logo {
+  background-image: url("../../../images/menu_logo.svg");
+  width: 18px;
+  height: 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+}

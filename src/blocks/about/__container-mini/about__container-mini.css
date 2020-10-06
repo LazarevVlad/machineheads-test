@@ -1,0 +1,28 @@
+@import url(./__image/about__image.css);
+@import url(./__gratitude/about__gratitude.css);
+
+.about__container-mini {
+  margin-top: 21px;
+}
+
+@media all and (min-width: 480px) {
+  .about__container-mini {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+  }
+}
+
+@media all and (min-width: 480px) {
+  .about__container-mini {
+    justify-content: flex-start;
+    margin-top: 44px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .about__container-mini {
+    margin: 0;
+  }
+}

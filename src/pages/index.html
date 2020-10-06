@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Лазарев Владислав" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="<%=htmlWebpackPlugin.files.css %>"
+    />
+    <title>Улыбнись</title>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header page__header">
+        <div class="header__logo"></div>
+        <div class="header__menu-logo"></div>
+        <nav class="header__menu">
+          <div class="header__list-close"></div>
+          <ul class="header__list">
+            <li class="header__list-item">
+              <a href="" class="header__link">Услуги</a>
+              <img
+                src="<%=require('../images/Polygon 3.svg').default%>"
+                alt="Треугольник"
+                class="header__link-icon"
+              />
+            </li>
+            <li class="header__list-item">
+              <a href="" class="header__link">Команда</a>
+            </li>
+            <li class="header__list-item">
+              <a href="" class="header__link">Прайс</a>
+            </li>
+            <li class="header__list-item">
+              <a href="" class="header__link">Контакты</a>
+            </li>
+            <li class="header__list-item">
+              <a href="" class="header__link">О центре</a>
+            </li>
+            <li class="header__list-item">
+              <a href="" class="header__link">О нас</a>
+            </li>
+            <li class="header__list-item">
+              <button class="header__button">Записаться на приём</button>
+            </li>
+            <li class="header__list-item">
+              <a href="" class="header__link">О нас</a>
+            </li>
+            <li class="header__list-item">
+              <a href="" class="header__link">О нас</a>
+            </li>
+            <li class="header__list-item header__list-item_icons">
+              <a href="" class="header__link"
+                ><img
+                  src="<%=require('../images/VK.svg').default%>"
+                  alt="Vk"
+                  class="header__icon"
+              /></a>
+              <a href="" class="header__link"
+                ><img
+                  src="<%=require('../images/istagram.svg').default%>"
+                  alt="Instagram"
+                  class="header__icon"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="content">
+        <section class="main page__main">
+          <div class="main__image"></div>
+          <div class="main__image-girl"></div>
+          <h1 class="main__title">
+            Мы знаем, как&nbsp;сделать вашу улыбку красивой
+          </h1>
+          <p class="main__subtitle">
+            «Улыбнись!» — специализированный центр ортодонтии в Новосибирске.
+          </p>
+          <div class="main__container">
+            <button class="main__button">Хочу записаться</button>
+            <p class="main__questions">Задать вопрос</p>
+          </div>
+        </section>
+        <section class="about page__about">
+          <h2 class="about__title">
+            С 2007 года мы дарим улыбки хорошим людям
+          </h2>
+          <div class="about__container">
+            <p class="about__text">
+              Практикуем проверенные
+              <span class="about__text_blue">современные методы</span> лечения
+              неправильного прикуса, исправления положения зубов, аномалий
+              развития челюстей, нарушений функций глотания, дыхания и речи.
+            </p>
+            <p class="about__text">
+              За эти годы многие пациенты стали нам
+              <span class="about__text_blue">настоящими друзьями</span>. С нами
+              дружат семьями, нас рекомендуют родным и близким.
+            </p>
+            <div class="about__container-mini">
+              <img
+                src="<%=require('../images/улыбка.svg').default%>"
+                alt="Улыбка"
+                class="about__image"
+              />
+              <p class="about__gratitude">
+                Если вы зашли на сайт по рекомендации кого-то из наших друзей,
+                пожалуйста, передайте ему спасибо и улыбнитесь за нас :)
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script type="module" src="<%= htmlWebpackPlugin.files.js %>"></script>
+  </body>
+</html>

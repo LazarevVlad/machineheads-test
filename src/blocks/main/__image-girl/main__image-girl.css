@@ -1,0 +1,17 @@
+.main__image-girl {
+  display: none;
+}
+
+@media all and (min-width: 1024px) {
+  .main__image-girl {
+    display: block;
+    background-image: url(../../../images/Девка1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 892px;
+    height: 595px;
+    position: absolute;
+    left: 230px;
+    bottom: 0;
+  }
+}

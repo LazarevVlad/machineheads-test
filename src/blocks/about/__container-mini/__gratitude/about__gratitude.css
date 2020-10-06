@@ -1,0 +1,20 @@
+.about__gratitude {
+  max-width: 357px;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+@media all and (min-width: 480px) {
+  .about__gratitude {
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 27px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .about__gratitude {
+    line-height: 22px;
+  }
+}

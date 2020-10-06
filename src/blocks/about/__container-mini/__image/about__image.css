@@ -1,0 +1,11 @@
+.about__image {
+  width: 32px;
+  height: 37px;
+}
+
+@media all and (min-width: 480px) {
+  .about__image {
+    width: 48px;
+    height: 56px;
+  }
+}

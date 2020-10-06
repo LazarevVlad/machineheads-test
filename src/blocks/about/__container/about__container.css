@@ -1,0 +1,22 @@
+@import url(./__title/about__title.css);
+@import url(./__text/about__text.css);
+
+.about__container {
+  max-width: 283px;
+}
+
+@media all and (min-width: 480px) {
+  .about__container {
+    max-width: 442px;
+  }
+}
+@media all and (min-width: 768px) {
+  .about__container {
+    max-width: 720px;
+  }
+}
+@media all and (min-width: 1024px) {
+  .about__container {
+    max-width: 452px;
+  }
+}
