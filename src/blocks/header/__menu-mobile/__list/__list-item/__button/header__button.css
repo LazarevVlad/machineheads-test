@@ -5,6 +5,8 @@
   width: 179px;
   height: 36px;
   background-color: #0553f1;
+  border: none;
+  cursor: pointer;
   color: #ffffff;
   font-weight: 300;
   font-size: 14px;
