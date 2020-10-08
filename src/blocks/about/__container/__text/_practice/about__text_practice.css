@@ -1,0 +1,11 @@
+@media all and (min-width: 1440px) {
+  .about__text.about__text_practice {
+    max-width: 480px;
+  }
+}
+
+@media all and (min-width: 1920px) {
+  .about__text.about__text_practice {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,26 @@
+.header__logo {
+  background-image: url("../../../images/logo.png");
+  width: 116px;
+  height: 28px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 200;
+}
+
+@media all and (min-width: 768px) {
+  .header__logo {
+    background-image: url("../../../images/logo768.png");
+    width: 147px;
+    height: 35px;
+  }
+}
+
+@media all and (min-width: 1440px) {
+  .header__logo {
+    background-image: url("../../../images/logo1440.png");
+    width: 240px;
+    height: 45px;
+    margin-right: 50px;
+  }
+}

@@ -1,0 +1,27 @@
+.header__menu-logo {
+  background-image: url("../../../images/menu_logo.svg");
+  width: 18px;
+  height: 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media all and (min-width: 768px) {
+  .header__menu-logo {
+    position: relative;
+    z-index: 102;
+    margin-right: 80px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .header__menu-logo {
+    margin-right: 114px;
+  }
+}
+
+@media all and (min-width: 1440px) {
+  .header__menu-logo {
+    display: none;
+  }
+}

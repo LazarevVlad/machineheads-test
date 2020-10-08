@@ -1,0 +1,22 @@
+@import url(./__list-item/hedaer__list-item.css);
+@import url(./_main/header__list_main.css);
+
+.header__list {
+  margin-top: 43px;
+  box-sizing: border-box;
+  padding: 34px 0 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media all and (min-width: 1440px) {
+  .header__list {
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+}

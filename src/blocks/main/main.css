@@ -1,0 +1,13 @@
+@import url(./page/page__main.css);
+@import url(./__title/main__title.css);
+@import url(./__image/main__image.css);
+@import url(./__image-girl/main__image-girl.css);
+@import url(./__subtitle/main__subtitle.css);
+@import url(./__container/main__container.css);
+
+.main {
+  background-color: #ffbbc2;
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+}

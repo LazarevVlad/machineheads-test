@@ -1,0 +1,45 @@
+@import url(./_blue/about__text_blue.css);
+@import url(./_practice/about__text_practice.css);
+
+.about__text {
+  width: 100%;
+  margin: 0;
+  margin-top: 32px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media all and (min-width: 480px) {
+  .about__text {
+    margin-top: 40px;
+  }
+}
+@media all and (min-width: 768px) {
+  .about__text {
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .about__text {
+    margin: 0;
+    margin-bottom: 44px;
+  }
+}
+
+@media all and (min-width: 1440px) {
+  .about__text {
+    margin-bottom: 64px;
+    font-size: 24px;
+    line-height: 35px;
+  }
+}
+
+@media all and (min-width: 1920px) {
+  .about__text {
+    margin-bottom: 69px;
+  }
+}

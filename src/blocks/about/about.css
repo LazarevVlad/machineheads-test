@@ -1,0 +1,14 @@
+@import url(./page/page__about.css);
+@import url(./__container/__title/about__title.css);
+@import url(./__container/about__container.css);
+
+.about {
+  background-color: #ffffff;
+}
+
+@media all and (min-width: 1024px) {
+  .about {
+    display: flex;
+    justify-content: space-between;
+  }
+}

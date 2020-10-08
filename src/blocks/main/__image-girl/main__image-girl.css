@@ -1,0 +1,31 @@
+@media all and (min-width: 1024px) {
+  .main__image-girl {
+    background-image: url(../../../images/Девка1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 892px;
+    height: 595px;
+    position: absolute;
+    left: 230px;
+    bottom: 0;
+    z-index: 20;
+  }
+}
+
+@media all and (min-width: 1440px) {
+  .main__image-girl {
+    background-image: url(../../../images/Девка1280.png);
+    width: 1025px;
+    height: 684px;
+    left: 480px;
+  }
+}
+
+@media all and (min-width: 1920px) {
+  .main__image-girl {
+    background-image: url(../../../images/Девка1920.png);
+    width: 1188px;
+    height: 792px;
+    left: 740px;
+  }
+}

@@ -1,0 +1,23 @@
+.header__menu {
+  display: none;
+}
+
+@media all and (min-width: 768px) {
+  .header__menu {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 434px;
+  }
+}
+@media all and (min-width: 1024px) {
+  .header__menu {
+    flex-basis: 600px;
+  }
+}
+
+@media all and (min-width: 1440px) {
+  .header__menu {
+    display: none;
+  }
+}

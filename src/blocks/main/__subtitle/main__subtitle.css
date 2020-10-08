@@ -1,0 +1,43 @@
+.main__subtitle {
+  margin: 30px 0 29px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+@media all and (min-width: 480px) {
+  .main__subtitle {
+    margin-bottom: 50px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .main__subtitle {
+    max-width: 579px;
+    margin-top: 40px;
+    margin-bottom: 147px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+@media all and (min-width: 1024px) {
+  .main__subtitle {
+    margin-bottom: 156px;
+  }
+}
+
+@media all and (min-width: 1440px) {
+  .main__subtitle {
+    max-width: 550px;
+    font-size: 28px;
+    line-height: 34px;
+  }
+}
+
+@media all and (min-width: 1920px) {
+  .main__subtitle {
+    max-width: 659px;
+    font-size: 34px;
+    line-height: 40px;
+  }
+}

@@ -1,0 +1,10 @@
+@import url(./_main/header__info_main.css);
+
+.header__info {
+  margin: 0;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #18478c;
+}

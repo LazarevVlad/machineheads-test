@@ -1,0 +1,39 @@
+.page__header {
+  box-sizing: border-box;
+  padding: 9px 20px 6px;
+  min-width: 320px;
+}
+
+@media all and (min-width: 480px) {
+  .page__header {
+    min-width: 480px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .page__header {
+    padding: 31px 24px 24px;
+    min-width: 768px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .page__header {
+    padding: 31px 52px 24px;
+    min-width: 1024px;
+  }
+}
+
+@media all and (min-width: 1440px) {
+  .page__header {
+    padding: 25px 52px 32px;
+    min-width: 1440px;
+  }
+}
+
+@media all and (min-width: 1920px) {
+  .page__header {
+    padding: 38px 177px 29px;
+    min-width: 1920px;
+  }
+}

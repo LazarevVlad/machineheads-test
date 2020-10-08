@@ -1,0 +1,6 @@
+@import url(./__link-icon/header__link-icon.css);
+
+.header__link {
+  color: currentColor;
+  text-decoration: none;
+}
