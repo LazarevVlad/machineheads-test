@@ -9,3 +9,10 @@
     height: 56px;
   }
 }
+
+@media all and (min-width: 1440px) {
+  .about__image {
+    width: 61px;
+    height: 71px;
+  }
+}

@@ -23,3 +23,16 @@
     padding: 100px 53px 168px;
   }
 }
+
+@media all and (min-width: 1440px) {
+  .page__main {
+    max-width: 1440px;
+  }
+}
+
+@media all and (min-width: 1920px) {
+  .page__main {
+    min-width: 1920px;
+    padding: 138px 174px 185px;
+  }
+}

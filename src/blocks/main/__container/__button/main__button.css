@@ -6,6 +6,9 @@
   padding: 16px 25px;
   background-color: #0553f1;
   color: #ffffff;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
   border: none;
   cursor: pointer;
 }

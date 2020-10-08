@@ -9,6 +9,7 @@
     max-width: 480px;
   }
 }
+
 @media all and (min-width: 768px) {
   .page__about {
     max-width: 768px;
@@ -20,5 +21,19 @@
   .page__about {
     min-width: 1024px;
     padding: 100px 54px 59px;
+  }
+}
+
+@media all and (min-width: 1440px) {
+  .page__about {
+    min-width: 1440px;
+    padding: 130px 165px 74px 52px;
+  }
+}
+
+@media all and (min-width: 1920px) {
+  .page__about {
+    min-width: 1920px;
+    padding: 150px 336px 63px 182px;
   }
 }

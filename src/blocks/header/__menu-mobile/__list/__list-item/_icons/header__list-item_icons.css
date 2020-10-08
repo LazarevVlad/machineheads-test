@@ -1,0 +1,5 @@
+.header__list-item_icons {
+  width: 75px;
+  display: flex;
+  justify-content: space-between;
+}

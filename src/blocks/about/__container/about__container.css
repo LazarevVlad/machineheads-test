@@ -1,5 +1,5 @@
-@import url(./__title/about__title.css);
 @import url(./__text/about__text.css);
+@import url(../__container-mini/about__container-mini.css);
 
 .about__container {
   max-width: 283px;
@@ -18,5 +18,17 @@
 @media all and (min-width: 1024px) {
   .about__container {
     max-width: 452px;
+  }
+}
+
+@media all and (min-width: 1440px) {
+  .about__container {
+    max-width: 546px;
+  }
+}
+
+@media all and (min-width: 1920px) {
+  .about__container {
+    max-width: 615px;
   }
 }

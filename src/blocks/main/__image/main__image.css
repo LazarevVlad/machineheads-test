@@ -1,10 +1,5 @@
-.main__image {
-  display: none;
-}
-
 @media all and (min-width: 768px) {
   .main__image {
-    display: block;
     background-image: url(../../../images/path44.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -13,6 +8,7 @@
     position: absolute;
     top: 300px;
     left: 255px;
+    z-index: 10;
   }
 }
 
@@ -20,5 +16,21 @@
   .main__image {
     left: 350px;
     top: 344px;
+  }
+}
+
+@media all and (min-width: 1440px) {
+  .main__image {
+    top: 400px;
+  }
+}
+
+@media all and (min-width: 1920px) {
+  .main__image {
+    background-image: url(../../../images/Group758.svg);
+    width: 1275px;
+    height: 1000px;
+    top: -50px;
+    left: 650px;
   }
 }

@@ -16,7 +16,24 @@
 @media all and (min-width: 768px) {
   .main__title {
     max-width: 664px;
+    font-weight: normal;
     font-size: 64px;
     line-height: 64px;
+  }
+}
+
+@media all and (min-width: 1440px) {
+  .main__title {
+    max-width: 664px;
+    font-size: 76px;
+    line-height: 72px;
+  }
+}
+
+@media all and (min-width: 1920px) {
+  .main__title {
+    max-width: 882px;
+    font-size: 96px;
+    line-height: 100px;
   }
 }

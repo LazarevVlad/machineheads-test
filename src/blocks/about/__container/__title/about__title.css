@@ -15,8 +15,21 @@
 
 @media all and (min-width: 768px) {
   .about__title {
-    font-weight: normal;
     font-size: 48px;
     line-height: 52px;
+  }
+}
+
+@media all and (min-width: 1440px) {
+  .about__title {
+    max-width: 612px;
+    font-size: 64px;
+    line-height: 64px;
+  }
+}
+
+@media all and (min-width: 1920px) {
+  .about__title {
+    max-width: 680px;
   }
 }

@@ -17,7 +17,7 @@
       <header class="header page__header">
         <div class="header__logo"></div>
         <div class="header__menu-logo"></div>
-        <nav class="header__menu">
+        <nav class="header__menu-mobile">
           <div class="header__list-close"></div>
           <ul class="header__list">
             <li class="header__list-item">
@@ -43,16 +43,9 @@
             <li class="header__list-item">
               <a href="" class="header__link">О нас</a>
             </li>
-            <li class="header__list-item">
-              <button class="header__button">Записаться на приём</button>
-            </li>
-            <li class="header__list-item">
-              <a href="" class="header__link">О нас</a>
-            </li>
-            <li class="header__list-item">
-              <a href="" class="header__link">О нас</a>
-            </li>
-            <li class="header__list-item header__list-item_icons">
+            <li
+              class="header__list-item header__list-item_icons header__list-item_row"
+            >
               <a href="" class="header__link"
                 ><img
                   src="<%=require('../images/VK.svg').default%>"
@@ -65,6 +58,69 @@
                   alt="Instagram"
                   class="header__icon"
               /></a>
+            </li>
+            <li class="header__list-item header__list-item_column">
+              <button class="header__button">Записаться на приём</button>
+            </li>
+            <li class="header__list-item">
+              <p class="header__info">Блюхера, 30</p>
+              <p class="header__add-info">Новосибирск</p>
+            </li>
+            <li class="header__list-item">
+              <p class="header__info">+7 (383) 314-84-83</p>
+              <p class="header__add-info">info@ulybnis-nsk.ru</p>
+            </li>
+            <li class="header__list-item header__list-item_row">
+              <button class="header__button">Записаться на приём</button>
+            </li>
+            <li
+              class="header__list-item header__list-item_icons header__list-item_column"
+            >
+              <a href="" class="header__link"
+                ><img
+                  src="<%=require('../images/VK.svg').default%>"
+                  alt="Vk"
+                  class="header__icon"
+              /></a>
+              <a href="" class="header__link"
+                ><img
+                  src="<%=require('../images/istagram.svg').default%>"
+                  alt="Instagram"
+                  class="header__icon"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="header__menu">
+          <ul class="header__list header__list_main">
+            <li
+              class="header__list-item header__list-item_icons header__list-item_main"
+            >
+              <a href="" class="header__link"
+                ><img
+                  src="<%=require('../images/VK.svg').default%>"
+                  alt="Vk"
+                  class="header__icon"
+              /></a>
+              <a href="" class="header__link"
+                ><img
+                  src="<%=require('../images/istagram.svg').default%>"
+                  alt="Instagram"
+                  class="header__icon"
+              /></a>
+            </li>
+            <li class="header__list-item header__list-item_main">
+              <p class="header__info header__info_main">Блюхера, 30</p>
+              <p class="header__add-info header__add-info_main">Новосибирск</p>
+            </li>
+            <li class="header__list-item header__list-item_main">
+              <p class="header__info header__info_main">+7 (383) 314-84-83</p>
+              <p class="header__add-info header__add-info_main">
+                info@ulybnis-nsk.ru
+              </p>
+            </li>
+            <li class="header__list-item header__list-item_main">
+              <button class="header__button">Записаться на приём</button>
             </li>
           </ul>
         </nav>
@@ -89,7 +145,7 @@
             С 2007 года мы дарим улыбки хорошим людям
           </h2>
           <div class="about__container">
-            <p class="about__text">
+            <p class="about__text about__text_practice">
               Практикуем проверенные
               <span class="about__text_blue">современные методы</span> лечения
               неправильного прикуса, исправления положения зубов, аномалий
@@ -97,8 +153,8 @@
             </p>
             <p class="about__text">
               За эти годы многие пациенты стали нам
-              <span class="about__text_blue">настоящими друзьями</span>. С нами
-              дружат семьями, нас рекомендуют родным и близким.
+              <span class="about__text_blue">настоящими&nbsp;друзьями</span>. С
+              нами дружат семьями, нас рекомендуют родным и близким.
             </p>
             <div class="about__container-mini">
               <img

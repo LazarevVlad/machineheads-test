@@ -1,0 +1,9 @@
+.header__list-item.header__list-item_column {
+  display: flex;
+}
+
+@media all and (min-width: 1440px) {
+  .header__list-item.header__list-item_column {
+    display: none;
+  }
+}

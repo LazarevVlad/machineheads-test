@@ -1,7 +1,0 @@
-@import url(./__list-item/hedaer__list-item.css);
-
-.header__list {
-  box-sizing: border-box;
-  padding: 0;
-  list-style: none;
-}
