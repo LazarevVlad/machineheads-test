@@ -2,6 +2,10 @@
 
 Тестовое задание для Machineheads
 
+## Ссылки на проект
+
+- https://lazarevvlad.github.io/machineheads-test/
+
 ## Установка
 
 - Склонируте репозиторий:  
